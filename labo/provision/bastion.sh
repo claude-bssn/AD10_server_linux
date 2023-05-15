@@ -21,6 +21,6 @@
   done
 
   # Ajouter la clé publique à authorized_keys
-  echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHtmpmooAuLRKr0EWYq7buL/VsdVNPvnfNIwSxEI2/sX claude.buisson@evoluflor.fr" | sudo tee -a /home/vagrant/.ssh/authorized_keys
+  echo "<YOUR_SSH_HERE>" | sudo tee -a /home/vagrant/.ssh/authorized_keys
   sudo chown vagrant:vagrant /home/vagrant/.ssh/authorized_keys
   sudo chmod 600 /home/vagrant/.ssh/authorized_keys
